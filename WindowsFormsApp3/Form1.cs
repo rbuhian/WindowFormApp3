@@ -261,6 +261,8 @@ namespace WindowsFormsApp3
             MessageBox.Show(path, textBox1.Text);
             string fullPath = Path.Combine(path, textBox1.Text);
             MessageBox.Show(fullPath.ToString());
+
+
         }
     }
 }
