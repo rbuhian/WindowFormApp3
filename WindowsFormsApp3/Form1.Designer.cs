@@ -39,6 +39,8 @@
             this.cmdPrintToFile = new System.Windows.Forms.Button();
             this.cmdSelect = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.cmdConvert2DXF = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -143,11 +145,33 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(236, 154);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(130, 23);
+            this.button5.TabIndex = 11;
+            this.button5.Text = "Directory Info";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // cmdConvert2DXF
+            // 
+            this.cmdConvert2DXF.Location = new System.Drawing.Point(372, 154);
+            this.cmdConvert2DXF.Name = "cmdConvert2DXF";
+            this.cmdConvert2DXF.Size = new System.Drawing.Size(130, 23);
+            this.cmdConvert2DXF.TabIndex = 12;
+            this.cmdConvert2DXF.Text = "Convert to DXF";
+            this.cmdConvert2DXF.UseVisualStyleBackColor = true;
+            this.cmdConvert2DXF.Click += new System.EventHandler(this.cmdConvert2DXF_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(951, 209);
+            this.Controls.Add(this.cmdConvert2DXF);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.cmdSelect);
             this.Controls.Add(this.cmdPrintToFile);
@@ -179,6 +203,8 @@
         private System.Windows.Forms.Button cmdPrintToFile;
         private System.Windows.Forms.Button cmdSelect;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button cmdConvert2DXF;
     }
 }
 
