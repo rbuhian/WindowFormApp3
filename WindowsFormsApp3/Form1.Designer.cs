@@ -41,6 +41,16 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.cmdConvert2DXF = new System.Windows.Forms.Button();
+            this.cmdProjectProperties = new System.Windows.Forms.Button();
+            this.cmdMiscList = new System.Windows.Forms.Button();
+            this.cmdPDFSize = new System.Windows.Forms.Button();
+            this.cmdMoveFile = new System.Windows.Forms.Button();
+            this.cmdRemovePlates = new System.Windows.Forms.Button();
+            this.cmdTestStack = new System.Windows.Forms.Button();
+            this.cmdSendMessage = new System.Windows.Forms.Button();
+            this.cmdShowWindowAsync = new System.Windows.Forms.Button();
+            this.cmdFilter = new System.Windows.Forms.Button();
+            this.cmdSegregateNC1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -165,11 +175,121 @@
             this.cmdConvert2DXF.UseVisualStyleBackColor = true;
             this.cmdConvert2DXF.Click += new System.EventHandler(this.cmdConvert2DXF_Click);
             // 
+            // cmdProjectProperties
+            // 
+            this.cmdProjectProperties.Location = new System.Drawing.Point(508, 154);
+            this.cmdProjectProperties.Name = "cmdProjectProperties";
+            this.cmdProjectProperties.Size = new System.Drawing.Size(130, 23);
+            this.cmdProjectProperties.TabIndex = 13;
+            this.cmdProjectProperties.Text = "Project Properties";
+            this.cmdProjectProperties.UseVisualStyleBackColor = true;
+            this.cmdProjectProperties.Click += new System.EventHandler(this.cmdProjectProperties_Click);
+            // 
+            // cmdMiscList
+            // 
+            this.cmdMiscList.Location = new System.Drawing.Point(659, 154);
+            this.cmdMiscList.Name = "cmdMiscList";
+            this.cmdMiscList.Size = new System.Drawing.Size(130, 23);
+            this.cmdMiscList.TabIndex = 14;
+            this.cmdMiscList.Text = "Misc List";
+            this.cmdMiscList.UseVisualStyleBackColor = true;
+            this.cmdMiscList.Click += new System.EventHandler(this.cmdMiscList_Click);
+            // 
+            // cmdPDFSize
+            // 
+            this.cmdPDFSize.Location = new System.Drawing.Point(800, 154);
+            this.cmdPDFSize.Name = "cmdPDFSize";
+            this.cmdPDFSize.Size = new System.Drawing.Size(130, 23);
+            this.cmdPDFSize.TabIndex = 15;
+            this.cmdPDFSize.Text = "PDF Size";
+            this.cmdPDFSize.UseVisualStyleBackColor = true;
+            this.cmdPDFSize.Click += new System.EventHandler(this.cmdPDFSize_Click);
+            // 
+            // cmdMoveFile
+            // 
+            this.cmdMoveFile.Location = new System.Drawing.Point(83, 210);
+            this.cmdMoveFile.Name = "cmdMoveFile";
+            this.cmdMoveFile.Size = new System.Drawing.Size(130, 23);
+            this.cmdMoveFile.TabIndex = 16;
+            this.cmdMoveFile.Text = "Move File";
+            this.cmdMoveFile.UseVisualStyleBackColor = true;
+            this.cmdMoveFile.Click += new System.EventHandler(this.cmdMoveFile_Click);
+            // 
+            // cmdRemovePlates
+            // 
+            this.cmdRemovePlates.Location = new System.Drawing.Point(236, 210);
+            this.cmdRemovePlates.Name = "cmdRemovePlates";
+            this.cmdRemovePlates.Size = new System.Drawing.Size(130, 23);
+            this.cmdRemovePlates.TabIndex = 17;
+            this.cmdRemovePlates.Text = "Remove Plates ";
+            this.cmdRemovePlates.UseVisualStyleBackColor = true;
+            this.cmdRemovePlates.Click += new System.EventHandler(this.cmdRemovePlates_Click);
+            // 
+            // cmdTestStack
+            // 
+            this.cmdTestStack.Location = new System.Drawing.Point(372, 210);
+            this.cmdTestStack.Name = "cmdTestStack";
+            this.cmdTestStack.Size = new System.Drawing.Size(130, 23);
+            this.cmdTestStack.TabIndex = 18;
+            this.cmdTestStack.Text = "Test Stack";
+            this.cmdTestStack.UseVisualStyleBackColor = true;
+            this.cmdTestStack.Click += new System.EventHandler(this.cmdTestStack_Click);
+            // 
+            // cmdSendMessage
+            // 
+            this.cmdSendMessage.Location = new System.Drawing.Point(508, 210);
+            this.cmdSendMessage.Name = "cmdSendMessage";
+            this.cmdSendMessage.Size = new System.Drawing.Size(130, 23);
+            this.cmdSendMessage.TabIndex = 19;
+            this.cmdSendMessage.Text = "Send Message";
+            this.cmdSendMessage.UseVisualStyleBackColor = true;
+            this.cmdSendMessage.Click += new System.EventHandler(this.cmdSendMessage_Click);
+            // 
+            // cmdShowWindowAsync
+            // 
+            this.cmdShowWindowAsync.Location = new System.Drawing.Point(659, 210);
+            this.cmdShowWindowAsync.Name = "cmdShowWindowAsync";
+            this.cmdShowWindowAsync.Size = new System.Drawing.Size(130, 23);
+            this.cmdShowWindowAsync.TabIndex = 20;
+            this.cmdShowWindowAsync.Text = "ShowWindowAsync";
+            this.cmdShowWindowAsync.UseVisualStyleBackColor = true;
+            this.cmdShowWindowAsync.Click += new System.EventHandler(this.cmdShowWindowAsync_Click);
+            // 
+            // cmdFilter
+            // 
+            this.cmdFilter.Location = new System.Drawing.Point(800, 210);
+            this.cmdFilter.Name = "cmdFilter";
+            this.cmdFilter.Size = new System.Drawing.Size(130, 23);
+            this.cmdFilter.TabIndex = 21;
+            this.cmdFilter.Text = "Filter by UserIssue";
+            this.cmdFilter.UseVisualStyleBackColor = true;
+            this.cmdFilter.Click += new System.EventHandler(this.cmdFilter_Click);
+            // 
+            // cmdSegregateNC1
+            // 
+            this.cmdSegregateNC1.Location = new System.Drawing.Point(83, 257);
+            this.cmdSegregateNC1.Name = "cmdSegregateNC1";
+            this.cmdSegregateNC1.Size = new System.Drawing.Size(130, 23);
+            this.cmdSegregateNC1.TabIndex = 22;
+            this.cmdSegregateNC1.Text = "Segregate NC1";
+            this.cmdSegregateNC1.UseVisualStyleBackColor = true;
+            this.cmdSegregateNC1.Click += new System.EventHandler(this.cmdSegregateNC1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(951, 209);
+            this.ClientSize = new System.Drawing.Size(968, 328);
+            this.Controls.Add(this.cmdSegregateNC1);
+            this.Controls.Add(this.cmdFilter);
+            this.Controls.Add(this.cmdShowWindowAsync);
+            this.Controls.Add(this.cmdSendMessage);
+            this.Controls.Add(this.cmdTestStack);
+            this.Controls.Add(this.cmdRemovePlates);
+            this.Controls.Add(this.cmdMoveFile);
+            this.Controls.Add(this.cmdPDFSize);
+            this.Controls.Add(this.cmdMiscList);
+            this.Controls.Add(this.cmdProjectProperties);
             this.Controls.Add(this.cmdConvert2DXF);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -205,6 +325,16 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button cmdConvert2DXF;
+        private System.Windows.Forms.Button cmdProjectProperties;
+        private System.Windows.Forms.Button cmdMiscList;
+        private System.Windows.Forms.Button cmdPDFSize;
+        private System.Windows.Forms.Button cmdMoveFile;
+        private System.Windows.Forms.Button cmdRemovePlates;
+        private System.Windows.Forms.Button cmdTestStack;
+        private System.Windows.Forms.Button cmdSendMessage;
+        private System.Windows.Forms.Button cmdShowWindowAsync;
+        private System.Windows.Forms.Button cmdFilter;
+        private System.Windows.Forms.Button cmdSegregateNC1;
     }
 }
 
